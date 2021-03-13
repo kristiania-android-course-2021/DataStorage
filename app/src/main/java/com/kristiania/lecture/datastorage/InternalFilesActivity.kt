@@ -22,7 +22,7 @@ class InternalFilesActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val fileContent =
-            "Hi, How are you?\nThis is an android file demo \nfor internal private file"
+            "Hi, How are you?\nThis is an android file demo \nfor internal private file\n"
 
         // button click listener to save the data to cache
         binding.btnSaveInternal.setOnClickListener {

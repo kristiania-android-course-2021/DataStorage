@@ -26,7 +26,7 @@ class PublicExternalActivity : AppCompatActivity() {
         binding = ActivityPublicExternalBinding.inflate(LayoutInflater.from(this))
         setContentView(binding.root)
         val fileContent =
-            "Hi, How are you?\nThis is an android file demo \nfor External public file"
+            "Hi, How are you?\nThis is an android file demo \nfor External public file\n"
 
         //Check and ask for permission
         executePermission()
